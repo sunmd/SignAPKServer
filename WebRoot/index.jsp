@@ -11,7 +11,7 @@
 <head>
 <base href="<%=basePath%>">
 
-<title>My JSP 'index.jsp' starting page</title>
+<title>吉林汇通签名1.0</title>
 <meta http-equiv="pragma" content="no-cache">
 <meta http-equiv="cache-control" content="no-cache">
 <meta http-equiv="expires" content="0">
@@ -23,12 +23,19 @@
 </head>
 
 <body>
-	This is my JSP page.
+	<h1 align="center"> 吉林汇通签名1.0 </h1>
 	<br>
-	<form action="http://localhost:8080/SignAPKServer/servlet/UpdateAPK"
+	<br>
+	<table align="center" border="1" width="800px">
+	<tr>
+		<td align="center">
+			<form action="http://localhost:8080/SignAPKServer/servlet/UpdateAPK"
 		method="post" enctype="multipart/form-data">
-		<input type="file" name="uploadfile" /> <input type="submit">
-	</form>
+				<input type="file" name="uploadfile" /> <input type="submit">
+			</form>
+		</td>
+	</tr>
+	
 
 </body>
 </html>
