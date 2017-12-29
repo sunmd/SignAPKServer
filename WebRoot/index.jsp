@@ -29,7 +29,7 @@
 	<table align="center" border="1" width="800px">
 	<tr>
 		<td align="center">
-			<form action="http://localhost:8080/SignAPKServer/servlet/UpdateAPK"
+			<form action="servlet/UpdateAPK"
 		method="post" enctype="multipart/form-data">
 				<input type="file" name="uploadfile" /> <input type="submit">
 			</form>

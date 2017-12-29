@@ -500,14 +500,14 @@ class SignAPK {
             }  
         } catch (Exception e) {  
             e.printStackTrace();  
-            System.exit(1);  
+            
         } finally {  
             try {  
                 if (inputJar != null) inputJar.close();  
                 if (outputFile != null) outputFile.close();  
             } catch (IOException e) {  
                 e.printStackTrace();  
-                System.exit(1);  
+                
             }  
         }  
     }  
